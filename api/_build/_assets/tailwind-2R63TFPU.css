@@ -1477,10 +1477,6 @@ a:focus-visible,
   .sm\:pt-20 {
     padding-top: 5rem;
   }
-
-  .sm\:pb-40 {
-    padding-bottom: 10rem;
-  }
 }
 
 @media (min-width: 768px) {
