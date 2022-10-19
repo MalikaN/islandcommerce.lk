@@ -28,9 +28,22 @@ export const sendEmail = async (data: {
           </p>`,
   }
 
+  const replyTo = {
+    to: email,
+    from: emailToFrom.from,
+    templateId: 'd-1820d2871f1642d78bf47ae1df51b7c7',
+
+    dynamic_template_data: {
+      subject: 'Thank you for contacting us',
+      name: name,
+    },
+  };
+
   try {
     if (company) throw new Error('Bot detected, company name not allowed.')
     await sgMail.send(content)
+
+    await sgMail.send(replyTo)
   } catch (error: unknown) {
     throw new Error(error as unknown as string)
   }
