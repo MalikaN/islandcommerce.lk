@@ -12,7 +12,7 @@ import { projects } from '../../../projects'
 export const Projects = () => {
   return (
     <SectionShell id='projects'>
-      <SectionHeader heading='Projects' />
+      <SectionHeader heading='Services' />
 
       <motion.section
         variants={{
