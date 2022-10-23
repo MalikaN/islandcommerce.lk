@@ -644,10 +644,6 @@ a:focus-visible,
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.dark .dark\:fill-grey-50 {
-  fill: #8F8F8F;
-}
-
 .visible {
   visibility: visible;
 }
@@ -1400,6 +1396,11 @@ a:focus-visible,
 .dark .dark\:fill-dark-50 {
   fill: #EDEDED;
 }
+
+.dark .dark\:fill-grey-50 {
+  fill: #8F8F8F;
+}
+
 
 .dark .dark\:text-dark-50 {
   --tw-text-opacity: 1;
