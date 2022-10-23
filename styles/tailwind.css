@@ -34,4 +34,8 @@
 	.active-nav-link::before {
 		@apply origin-left scale-x-100;
 	}
+	
+	.dark .dark\:fill-grey-50 {
+		fill: #8F8F8F;
+	  }
 }
