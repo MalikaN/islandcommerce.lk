@@ -30,7 +30,7 @@ export const Projects = () => {
           text='We craft holistic, people-friendly commerce experiences to help your business grow'
         />
 
-        <MotionLinkButton
+        {/* <MotionLinkButton
           to='/services'
           motionProps={{
             variants: {
@@ -45,7 +45,7 @@ export const Projects = () => {
           className='col-span-full md:col-start-7 xl:col-start-9'
         >
           All services
-        </MotionLinkButton>
+        </MotionLinkButton> */}
       </motion.section>
 
       <motion.div

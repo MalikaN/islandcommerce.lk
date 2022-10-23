@@ -163,7 +163,7 @@ export default function Index() {
             required
           />
           <SubmitButton>
-            {transition.state === 'submitting' ? 'Sending...' : 'Send it'}
+            {transition.state === 'submitting' ? 'Sending...' : 'Send it to us'}
           </SubmitButton>
 
           {actionData?.status === 'success' && (

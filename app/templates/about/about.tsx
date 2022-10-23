@@ -37,7 +37,7 @@ export const About = () => {
           className='col-span-full text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200 md:col-span-6 xl:col-span-8'
           text='Get a brief look at who we are and what we do, If you would like to know more about us and our company'
         />
-        <MotionLinkButton
+        {/* <MotionLinkButton
           to='/about'
           motionProps={{
             variants: {
@@ -48,7 +48,7 @@ export const About = () => {
           className='col-span-full md:col-start-7 xl:col-start-9'
         >
           More about us
-        </MotionLinkButton>
+        </MotionLinkButton> */}
       </motion.section>
 
       <section className='relative mt-24 flex grid-cols-12 flex-col-reverse gap-y-10 md:ml-24 md:grid md:gap-x-8 lg:gap-x-16'>

@@ -12,7 +12,7 @@ export const Footer = () => {
       className='container flex flex-col justify-center gap-10 py-16 md:flex-row md:justify-between'
     >
       <section className='flex w-1/2 gap-8 md:gap-12 text-xl'>
-        <motion.a
+        {/* <motion.a
           href='https://github.com/islandcommerce'
           target='_blank'
           rel='noreferrer'
@@ -20,7 +20,7 @@ export const Footer = () => {
           className='nav-link text-xl text-dark-500'
         >
           Github
-        </motion.a>
+        </motion.a> */}
         <motion.a
           href='https://twitter.com/islandcommerce'
           target='_blank'
