@@ -11,7 +11,7 @@ import { projects } from '../../../projects'
 
 export const Projects = () => {
   return (
-    <SectionShell id='projects'>
+    <SectionShell id='services'>
       <SectionHeader heading='Services' />
 
       <motion.section

@@ -28,8 +28,8 @@ export const Navigation = () => {
         <AnimatedLink to='/#intro' variants={linkVariants}>
           Introduction
         </AnimatedLink>
-        <AnimatedLink to='/#projects' variants={linkVariants}>
-          Projects
+        <AnimatedLink to='/#services' variants={linkVariants}>
+          Services
         </AnimatedLink>
         <AnimatedLink to='/#about' variants={linkVariants}>
           About

@@ -55,8 +55,8 @@ export default function MobileNav() {
   useClickAway([navRef, navToggleRef], () => setIsOpen(false))
 
   useScrollspy({
-    ids: ['intro', 'projects', 'about', 'contact'],
-    hrefs: ['/#intro', '/#projects', '/#about', '/#contact'],
+    ids: ['intro', 'Services', 'about', 'contact'],
+    hrefs: ['/#intro', '/#services', '/#about', '/#contact'],
     offset: 'topCenter',
     activeClass: 'active-nav-link',
   })
@@ -128,8 +128,8 @@ export default function MobileNav() {
             <MotionLink to='/#intro' variants={linkVariants} className='mobile-nav-link'>
               Introduction
             </MotionLink>
-            <MotionLink to='/#projects' variants={linkVariants} className='mobile-nav-link'>
-              Projects
+            <MotionLink to='/#services' variants={linkVariants} className='mobile-nav-link'>
+              Services
             </MotionLink>
             <MotionLink to='/#about' variants={linkVariants} className='mobile-nav-link'>
               About

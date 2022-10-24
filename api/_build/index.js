@@ -1105,8 +1105,8 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), navVariants = {
 function MobileNav() {
   let navRef = (0, import_react5.useRef)(null), navToggleRef = (0, import_react5.useRef)(null), [isOpen, setIsOpen] = (0, import_react5.useState)(!1), toggle = () => setIsOpen((open) => !open);
   useClickAway([navRef, navToggleRef], () => setIsOpen(!1)), (0, import_use_scrollspy.useScrollspy)({
-    ids: ["intro", "projects", "about", "contact"],
-    hrefs: ["/#intro", "/#projects", "/#about", "/#contact"],
+    ids: ["intro", "Services", "about", "contact"],
+    hrefs: ["/#intro", "/#services", "/#about", "/#contact"],
     offset: "topCenter",
     activeClass: "active-nav-link"
   });
@@ -1203,10 +1203,10 @@ function MobileNav() {
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(MotionLink, {
-              to: "/#projects",
+              to: "/#services",
               variants: linkVariants,
               className: "mobile-nav-link",
-              children: "Projects"
+              children: "Services"
             }, void 0, !1, {
               fileName: "app/components/mobile-navigation.tsx",
               lineNumber: 131,
@@ -1305,9 +1305,9 @@ var Navigation = () => {
             columnNumber: 9
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(AnimatedLink, {
-            to: "/#projects",
+            to: "/#services",
             variants: linkVariants2,
-            children: "Projects"
+            children: "Services"
           }, void 0, !1, {
             fileName: "app/components/navigation/navigation.tsx",
             lineNumber: 31,
@@ -2826,7 +2826,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), About = () => /* 
       children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(AnimatedText, {
         as: "p",
         className: "col-span-full text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200 md:col-span-6 xl:col-span-8",
-        text: "Get a brief look at who we are and what we do, If you would like to know more about us and our company"
+        text: "Get a brief look at who we are and what we do, if you would like to know more about us and our company"
       }, void 0, !1, {
         fileName: "app/templates/about/about.tsx",
         lineNumber: 35,
@@ -2863,7 +2863,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), About = () => /* 
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(AnimatedText, {
                   as: "p",
-                  text: "Island Commerce is owned by two technophiles who has technical and digital experience which spans for almost a decade",
+                  text: "Island Commerce is owned by two technophiles who has technical and digital experience which spans for almost two decades",
                   className: "mt-6 text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200"
                 }, void 0, !1, {
                   fileName: "app/templates/about/about.tsx",
@@ -2881,7 +2881,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), About = () => /* 
                 }, this),
                 /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(AnimatedText, {
                   as: "p",
-                  text: "We at Island Commerce put together a bunch of passionate minds to transform your visions into reality imparting an awesome experience for your users. From headless commerce solutions, custom store fronts, covering various industries and app development, the solutions we engineer accelerate efficiency and fuel growth for our clients",
+                  text: "We at Island Commerce put together a bunch of passionate minds to transform your visions into a reality, imparting an awesome experience for your users. From headless commerce solutions, custom store fronts, covering various industries and app development, the solutions we engineer accelerate efficiency and fuel growth for our clients",
                   className: "mt-6 text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200"
                 }, void 0, !1, {
                   fileName: "app/templates/about/about.tsx",
@@ -3590,7 +3590,7 @@ var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Hero = () => /* @
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(MotionLinkButton, {
-        to: "#projects",
+        to: "#services",
         motionProps: {
           variants: {
             hidden: { opacity: 0, y: 50 },
@@ -3748,10 +3748,10 @@ var projects = [
 
 // app/templates/projects/projects.tsx
 var import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Projects = () => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(SectionShell, {
-  id: "projects",
+  id: "services",
   children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(SectionHeader, {
-      heading: "Projects"
+      heading: "Services"
     }, void 0, !1, {
       fileName: "app/templates/projects/projects.tsx",
       lineNumber: 15,
@@ -3993,7 +3993,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "bfbbabc3", entry: { module: "/build/entry.client-FSW6VEAV.js", imports: ["/build/_shared/chunk-QM6342XS.js", "/build/_shared/chunk-CZALT7KZ.js", "/build/_shared/chunk-4IYZMDEG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-6YQCRZYV.js", imports: ["/build/_shared/chunk-JEOXN7TR.js", "/build/_shared/chunk-W7JTXIBI.js", "/build/_shared/chunk-TDY5T25U.js", "/build/_shared/chunk-E2J4K2K6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/[robots.txt]": { id: "routes/[robots.txt]", parentId: "root", path: "robots.txt", index: void 0, caseSensitive: void 0, module: "/build/routes/[robots.txt]-XZ5KURTG.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[sitemap.xml]": { id: "routes/[sitemap.xml]", parentId: "root", path: "sitemap.xml", index: void 0, caseSensitive: void 0, module: "/build/routes/[sitemap.xml]-5F4JOHYP.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/action/toggle-theme": { id: "routes/action/toggle-theme", parentId: "root", path: "action/toggle-theme", index: void 0, caseSensitive: void 0, module: "/build/routes/action/toggle-theme-L66ENDN3.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-67BNFTSO.js", imports: ["/build/_shared/chunk-KI4HR2ZI.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/project/100-days-of-ui": { id: "routes/project/100-days-of-ui", parentId: "root", path: "project/100-days-of-ui", index: void 0, caseSensitive: void 0, module: "/build/routes/project/100-days-of-ui-PJAOY4XJ.js", imports: ["/build/_shared/chunk-UDSKB5KG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/project/miinto": { id: "routes/project/miinto", parentId: "root", path: "project/miinto", index: void 0, caseSensitive: void 0, module: "/build/routes/project/miinto-ESLYPYQZ.js", imports: ["/build/_shared/chunk-UDSKB5KG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/project/tsks": { id: "routes/project/tsks", parentId: "root", path: "project/tsks", index: void 0, caseSensitive: void 0, module: "/build/routes/project/tsks-JVBHFWJO.js", imports: ["/build/_shared/chunk-UDSKB5KG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/headless-commerce": { id: "routes/service/headless-commerce", parentId: "root", path: "service/headless-commerce", index: void 0, caseSensitive: void 0, module: "/build/routes/service/headless-commerce-TRF5TUZZ.js", imports: ["/build/_shared/chunk-UDSKB5KG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/services": { id: "routes/services", parentId: "root", path: "services", index: void 0, caseSensitive: void 0, module: "/build/routes/services-2OP4JKZT.js", imports: ["/build/_shared/chunk-2HUBEZBF.js", "/build/_shared/chunk-KI4HR2ZI.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/side-projects": { id: "routes/side-projects", parentId: "root", path: "side-projects", index: void 0, caseSensitive: void 0, module: "/build/routes/side-projects-VI5NJT3L.js", imports: ["/build/_shared/chunk-2HUBEZBF.js", "/build/_shared/chunk-KI4HR2ZI.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-BFBBABC3.js" };
+var assets_manifest_default = { version: "169e8ad9", entry: { module: "/build/entry.client-FSW6VEAV.js", imports: ["/build/_shared/chunk-QM6342XS.js", "/build/_shared/chunk-CZALT7KZ.js", "/build/_shared/chunk-4IYZMDEG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CBFMQAKP.js", imports: ["/build/_shared/chunk-JEOXN7TR.js", "/build/_shared/chunk-W7JTXIBI.js", "/build/_shared/chunk-TDY5T25U.js", "/build/_shared/chunk-E2J4K2K6.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/[robots.txt]": { id: "routes/[robots.txt]", parentId: "root", path: "robots.txt", index: void 0, caseSensitive: void 0, module: "/build/routes/[robots.txt]-XZ5KURTG.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/[sitemap.xml]": { id: "routes/[sitemap.xml]", parentId: "root", path: "sitemap.xml", index: void 0, caseSensitive: void 0, module: "/build/routes/[sitemap.xml]-5F4JOHYP.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/action/toggle-theme": { id: "routes/action/toggle-theme", parentId: "root", path: "action/toggle-theme", index: void 0, caseSensitive: void 0, module: "/build/routes/action/toggle-theme-L66ENDN3.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-DJHUWGQA.js", imports: ["/build/_shared/chunk-KI4HR2ZI.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/project/100-days-of-ui": { id: "routes/project/100-days-of-ui", parentId: "root", path: "project/100-days-of-ui", index: void 0, caseSensitive: void 0, module: "/build/routes/project/100-days-of-ui-PJAOY4XJ.js", imports: ["/build/_shared/chunk-UDSKB5KG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/project/miinto": { id: "routes/project/miinto", parentId: "root", path: "project/miinto", index: void 0, caseSensitive: void 0, module: "/build/routes/project/miinto-ESLYPYQZ.js", imports: ["/build/_shared/chunk-UDSKB5KG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/project/tsks": { id: "routes/project/tsks", parentId: "root", path: "project/tsks", index: void 0, caseSensitive: void 0, module: "/build/routes/project/tsks-JVBHFWJO.js", imports: ["/build/_shared/chunk-UDSKB5KG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/service/headless-commerce": { id: "routes/service/headless-commerce", parentId: "root", path: "service/headless-commerce", index: void 0, caseSensitive: void 0, module: "/build/routes/service/headless-commerce-TRF5TUZZ.js", imports: ["/build/_shared/chunk-UDSKB5KG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/services": { id: "routes/services", parentId: "root", path: "services", index: void 0, caseSensitive: void 0, module: "/build/routes/services-2OP4JKZT.js", imports: ["/build/_shared/chunk-2HUBEZBF.js", "/build/_shared/chunk-KI4HR2ZI.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/side-projects": { id: "routes/side-projects", parentId: "root", path: "side-projects", index: void 0, caseSensitive: void 0, module: "/build/routes/side-projects-VI5NJT3L.js", imports: ["/build/_shared/chunk-2HUBEZBF.js", "/build/_shared/chunk-KI4HR2ZI.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-169E8AD9.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

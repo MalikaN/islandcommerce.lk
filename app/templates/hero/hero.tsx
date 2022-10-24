@@ -50,7 +50,7 @@ export const Hero = () => {
         </AnimatePresence>
 
         <MotionLinkButton
-          to='#projects'
+          to='#services'
           motionProps={{
             variants: {
               hidden: { opacity: 0, y: 50 },
