@@ -35,7 +35,7 @@ export const About = () => {
         <AnimatedText
           as='p'
           className='col-span-full text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200 md:col-span-6 xl:col-span-8'
-          text='Get a brief look at who we are and what we do, If you would like to know more about us and our company'
+          text='Get a brief look at who we are and what we do, if you would like to know more about us and our company'
         />
         {/* <MotionLinkButton
           to='/about'
@@ -69,7 +69,7 @@ export const About = () => {
             />
             <AnimatedText
               as='p'
-              text='Island Commerce is owned by two technophiles who has technical and digital experience which spans for almost a decade'
+              text='Island Commerce is owned by two technophiles who has technical and digital experience which spans for almost two decades'
               className='mt-6 text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200'
             />
             <AnimatedText
@@ -79,7 +79,7 @@ export const About = () => {
             />
             <AnimatedText
               as='p'
-              text='We at Island Commerce put together a bunch of passionate minds to transform your visions into reality imparting an awesome experience for your users. From headless commerce solutions, custom store fronts, covering various industries and app development, the solutions we engineer accelerate efficiency and fuel growth for our clients'
+              text='We at Island Commerce put together a bunch of passionate minds to transform your visions into a reality, imparting an awesome experience for your users. From headless commerce solutions, custom store fronts, covering various industries and app development, the solutions we engineer accelerate efficiency and fuel growth for our clients'
               className='mt-6 text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200'
             />
             <AnimatedText
